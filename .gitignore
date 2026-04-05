@@ -1,0 +1,20 @@
+# Віртуальне середовище (обов'язково ігноруємо)
+.venv/
+venv/
+env/
+ENV/
+
+# Тимчасові файли Python та Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.pytest_cache
+
+# Датасети (якщо вони великі або стандартні Movielens, краще їх не пушити)
+# Якщо хочеш залишити їх на GitHub, просто видали ці рядки:
+*.csv
+*.json
+
+# Файли конфігурації VS Code
+.vscode/
